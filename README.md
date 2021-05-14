@@ -36,11 +36,11 @@ $ npx cypress open</br>
 
 # <h3> 🚀 Cursos utilizados para estudo gratuito: </h3>
 
-Estrategias : https://testautomationu.applitools.com/setting-a-foundation-for-successful-test-automation/
-Introdução ao Javascript: https://testautomationu.applitools.com/javascript-tutorial/
-Framework Teste - Mocha : https://testautomationu.applitools.com/mocha-javascript-tests/
-Asserts - Chai : https://testautomationu.applitools.com/chai-test-assertions/
-Cypress: https://testautomationu.applitools.com/cypress-tutorial/
+<b>Estrategias </b>: https://testautomationu.applitools.com/setting-a-foundation-for-successful-test-automation/</br>
+<b>Introdução ao Javascript </b>: https://testautomationu.applitools.com/javascript-tutorial/</br>
+<b>Framework Teste - Mocha  </b>: https://testautomationu.applitools.com/mocha-javascript-tests/</br>
+<b>Asserts - Chai </b>: https://testautomationu.applitools.com/chai-test-assertions/</br>
+<b>Cypress </b>: https://testautomationu.applitools.com/cypress-tutorial/</br>
 
 
 
