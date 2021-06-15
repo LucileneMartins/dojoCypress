@@ -33,6 +33,15 @@ class CypressMethods {
   doubleClick(element) {
     cy.get(element).dblclick();
   }
+  
+  rightClick(element) {
+    cy.get(element).rightclick();
+  }
+
+  clickMe(element){
+    cy.get(element).eq(3).click();
+  }
+
   }
   
   const cypressMethods = new CypressMethods();

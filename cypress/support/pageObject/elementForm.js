@@ -12,6 +12,8 @@ var checkChild = ".rct-checkbox > svg";
 var radioYes = "label[for='yesRadio']";
 var radioImpressive = "label[for='impressiveRadio']";
 var clickNdouble = "#doubleClickBtn";
+var rightButton = "#rightClickBtn"
+var clickMe = "button[type='button']";
 
 class FormElement {
   
@@ -19,7 +21,7 @@ class FormElement {
     cypressMethods.typeElement(fullName, "teste 123");
     cypressMethods.typeElement(email, "teste@gmail.com");
     cypressMethods.typeElement(currentAddress, "Rua Teste");
-    cypressMethods.typeElement(permanentAddress, "Rua tste");
+    cypressMethods.typeElement(permanentAddress, "Rua teste");
     cypressMethods.clickButton(submit);
     
   }
@@ -32,6 +34,16 @@ class FormElement {
   doubleClick(){
     cypressMethods.doubleClick(clickNdouble);
     cy.contains('You have done a double click').should('be.visible');
+  }
+
+  rightClick(){
+    cypressMethods.rightClick(rightButton);
+    cy.contains('You have done a right click').should('be.visible');
+  }
+
+  clickMe(){
+    cypressMethods.clickMe(clickMe);
+    cy.contains("You have done a dynamic click").should('be.visible');
   }
 
   radioButton(value){
